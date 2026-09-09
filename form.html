@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Registration Form</title>
+</head>
+<body>
+
+    <h2 style="color: red;">Employee Registration Form</h2>
+    
+    <form>
+        <!-- Title Radio Buttons -->
+        <p>
+            <input type="radio" id="mr" name="title" checked> <label for="mr">Mr.</label>
+            <input type="radio" id="mrs" name="title"> <label for="mrs">Mrs.</label>
+            <input type="radio" id="ms" name="title"> <label for="ms">Ms.</label>
+        </p>
+
+        <!-- First Name -->
+        <p>
+            <label>First Name</label><br>
+            <input type="text" placeholder="First Name">
+        </p>
+
+        <!-- Last Name -->
+        <p>
+            <label>Last Name</label><br>
+            <input type="text" placeholder="Last Name">
+        </p>
+
+        <!-- Mail Address 1 -->
+        <p>
+            <label>Mail Address1</label><br>
+            <input type="text">
+        </p>
+
+        <!-- Mail Address 2 -->
+        <p>
+            <label>Mail Address2</label><br>
+            <input type="text">
+        </p>
+
+        <!-- City -->
+        <p>
+            <label>City</label><br>
+            <input type="text">
+        </p>
+
+        <!-- State -->
+        <p>
+            <label>State</label><br>
+            <select>
+                <option selected>Gujarat</option>
+                <option>Other</option>
+            </select>
+        </p>
+
+        <!-- Zip -->
+        <p>
+            <label>Zip</label><br>
+            <input type="text">
+        </p>
+
+        <!-- Upload Photo -->
+        <p>
+            <label>Upload Photo</label><br>
+            <input type="file"> No file selected.
+        </p>
+
+        <!-- E-Mail -->
+        <p>
+            <label>E-Mail</label><br>
+            <input type="email">
+        </p>
+
+        <!-- Mobile -->
+        <p>
+            <label>Mobile</label><br>
+            <input type="text" value="+91">
+        </p>
+
+        <!-- Languages known -->
+        <p>
+            <label>Languages known</label><br>
+            <input type="checkbox" checked> Gujarati<br>
+            <input type="checkbox" checked> Hindi<br>
+            <input type="checkbox" checked> English<br>
+            <input type="checkbox"> Marathi
+        </p>
+
+        <!-- Additional Information -->
+        <p>
+            <label>Additional Information</label><br>
+            <textarea placeholder="Optional" rows="4" cols="30"></textarea>
+        </p>
+
+        <!-- Submit and Reset Buttons -->
+        <p>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+        </p>
+    </form>
+
+</body>
+</html>
